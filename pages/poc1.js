@@ -79,6 +79,7 @@ function Poc1() {
 
     return (
         <div>
+            <p>Hello world!</p>
             <div>
                 <p>Products: {cartData.length > 0 ? cartData.join(", ") : 'n/a'}</p>
             </div>
